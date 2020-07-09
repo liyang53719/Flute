@@ -45,7 +45,7 @@ import Semi_FIFOF    :: *;
 `ifdef SV32
 import Cache_Decls_RV32_Sv32_8KB_2way :: *;
 `else
-import Cache_Decls_RV32_8KB_2way :: *;
+import Cache_Decls_RV32 :: *;
 `endif
 `endif
 
